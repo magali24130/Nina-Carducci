@@ -25,9 +25,9 @@
         <!-- Meta donnés pour Facebokk -->
       <meta property="og:title" content="Nina Carducci, Photographe professionnnelle à Bordeaux" />
       <meta property="og:description" content="Nina Carducci, photographe professionnelle à Bordeaux vous propose de capturer vos meilleurs moments" />
-      <meta property="og:url" content="https://www.nina-carducci.com" />
+      <meta property="og:url" content="https://magali24130.github.io/Nina-Carducci/" />
       <meta property="og:type" content="website" />
-      <meta property="og:image" content="https://www.nina-carducci.com/images/og-image.jpg" />
+      <meta property="og:image" content="https://github.com/magali24130/Nina-Carducci/blob/main/assets/images/nina.webp" />
       <meta property="og:locale" content="fr_FR" />
       <meta property="og:site_name" content="Nina Carducci" />
 
@@ -42,18 +42,19 @@
 
 
       
-      <script src="./assets/bootstrap/bootstrap.bundle.js"></script>
+      <script src="./assets/bootstrap/bootstrap.bundle.min.js" defer></script>
       <script
         src="https://code.jquery.com/jquery-3.4.1.min.js"
         integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
         crossorigin="anonymous"
+        defer
       ></script>
-      <script src="./assets/maugallery.js"></script>
-      <script src="./assets/scripts.js"></script>
+      <script src="./assets/maugallery.min.js" defer></script>
+      <script src="./assets/scripts.min.js" defer></script>
     </head>
     <body>
       <header class="top-header">
-        <h3 class="name">Nina Carducci</h3>
+        <h1 class="name">Nina Carducci</h1>
         <nav class="nav">
           <ul>
             <li><a href="#about">À propos</a></li>
@@ -87,6 +88,7 @@
           "telephone": "+33 5 5667 78 89",
           "openingHours": "Mo-Fr 10:00-19:00",
           "url":"https://github.com/magali24130/Nina-Carducci.git"
+          "priceRang: entre 50 et 400€"
         }
       </script>
     <main>
@@ -150,8 +152,7 @@
               <img
                 src="./assets/images/slider/edward-cisneros-3_h6-1NPDGw-unsplash.webp"
                 class="d-block w-100"
-                alt="mariés qui s'embrasse"
-                />
+                alt="mariés qui s'embrasse"/>
               </picture>
             </div>
           </div>
@@ -180,7 +181,7 @@
           <img src="./assets/images/nina.webp" alt="Portrait de Nina Carducci" />
         </div>
         <div id="about-me">
-          <h3 class="about-me__title">A propos de moi</h3>
+          <h1 class="about-me__title">A propos de moi</h1>
           <h2 class="about-me__introduction">
             Devenir photographe était pour moi une évidence. Comme si j’y étais
             prédestiné. Saisir un moment, une émotion, une situation, un
@@ -201,7 +202,7 @@
         </div>
       </div>
       <div id="gallery">
-        <h3 class="title">Portfolio</h3>
+        <h1 class="title">Portfolio</h1>
         <div class="container py-3">
           <div class="gallery" style="display: none">
             <img
@@ -209,78 +210,87 @@
               class="gallery-item"
               src="./assets/images/gallery/concerts/aaron-paul-wnX-fXzB6Cw-unsplash.webp"
               alt="Photo d'un concert prise par Aaron Paul"
+              loading="lazy"
             />
             <img
               data-gallery-tag="Entreprises"
               class="gallery-item"
               src="./assets/images/gallery/entreprise/ali-morshedlou-WMD64tMfc4k-unsplash.webp"
               alt="Portrait d'un entrepreuneur prise par Ali Morshedlou"
+              loading="lazy"
             />
             <img
               data-gallery-tag="Entreprises"
               class="gallery-item"
               src="./assets/images/gallery/entreprise/jason-goodman-tHO1_OuKbg0-unsplash.webp"
               alt="Photo d'une réunion prise par Jason Goodman"
+              loading="lazy"
             />
             <img
               data-gallery-tag="Mariages"
               class="gallery-item"
               src="./assets/images/gallery/mariage/hannah-busing-RvF2R_qMpRk-unsplash.webp"
               alt="Photo des mains d'un couple prise par Hannah Busing"
+              loading="lazy"
             />
             <img
               data-gallery-tag="Portrait"
               class="gallery-item"
               src="./assets/images/gallery/portraits/ade-tunji-rVkhWWZFAtQ-unsplash.webp"
               alt="Portrait d'un homme prise par Ade Tunji"
+              loading="lazy"
             />
             <img
               data-gallery-tag="Mariages"
               class="gallery-item"
               src="./assets/images/gallery/mariage/jakob-owens-SiniLJkXhMc-unsplash.webp"
               alt="Photo des mariés prise par Jakob Owens"
+              loading="lazy"
             />
             <img
               data-gallery-tag="Portrait"
               class="gallery-item"
               src="./assets/images/gallery/portraits/nino-van-prattenburg--443cl1uR_8-unsplash.webp"
               alt="Portrait d'une femme prise par Nino Van Prattenburg"
+              loading="lazy"
             />
             <img
               data-gallery-tag="Concert"
               class="gallery-item"
               src="./assets/images/gallery/concerts/austin-neill-hgO1wFPXl3I-unsplash.webp"
               alt="Photo d'un chanteur en concert prise par Austin Neill"
+              loading="lazy"
             />
             <img
               data-gallery-tag="Entreprises"
               class="gallery-item"
               src="./assets/images/gallery/entreprise/mateus-campos-felipe-Fsgzm8N0hIY-unsplash.webp"
               alt="Photo d'une femme face a son ordinateur prise par Mateus Campos"
+              loading="lazy"
             />
           </div>
         </div>
         <div class="quote">
           <figure>
             <blockquote>
-              <h1 class="quote__text">
+              <h2 class="quote__text">
                 Un portrait n’est pas une ressemblance. Dès lors qu’une émotion
                 ou qu’un fait est traduit en photo, il cesse d’être un fait pour
                 devenir une opinion. L’inexactitude n’existe pas en
                 photographie. Toutes les photos sont exactes. Aucune d’elles
                 n’est la vérité.
-              </h1>
+              </h2>
             </blockquote>
             <figcaption class="quote__author">- Richard Avedon</figcaption>
           </figure>
         </div>
       </div>
       <div id="services">
-        <h2 class="title">Mes services</h2>
+        <h1 class="title">Mes services</h1>
         <div class="container">
           <div class="service">
             <div class="service__description">
-              <h3>Shooting photo</h3>
+              <h1>Shooting photo</h1>
               <p>
                 Pour capturer vos moments les plus précieux et garder un
                 souvenir impérissable. Je me déplace en Île-de-France pour
@@ -288,13 +298,13 @@
               </p>
             </div>
             <div class="service__price">
-              <h4>350€/demi journée</h4>
+              <h2>350€/demi journée</h2>
               <span>Matériel, déplacement inclus</span>
             </div>
           </div>
           <div class="service">
             <div class="service__description">
-              <h3>Retouches</h3>
+              <h1>Retouches</h1>
               <p>
                 Vous souhaitez retoucher vos photos pour un résultat
                 professionnel ? Bénéficier d’un rendu optimal pour vos
@@ -302,20 +312,20 @@
               </p>
             </div>
             <div class="service__price">
-              <h4>50€/photo</h4>
+              <h2>50€/photo</h2>
               <span>2 AR par photo</span>
             </div>
           </div>
           <div class="service">
             <div class="service__description">
-              <h3>Album photos</h3>
+              <h1>Album photos</h1>
               <p>
                 Partagez avec vos proches et vos clients les photos des moments
                 partagés ensemble à travers un album photo personnalisé
               </p>
             </div>
             <div class="service__price">
-              <h4>400€ album A4</h4>
+              <h2>400€ album A4</h2>
               <span>30 pages recto/verso</span>
             </div>
           </div>
@@ -324,11 +334,11 @@
       <div class="quote">
         <figure>
           <blockquote>
-            <h1 class="quote__text">
+            <h3 class="quote__text">
               De manière inconsciente, je crois, je guette un regard, une
               expression, des traits ou une nostalgie capable de résumer ou plus
               exactement de révéler une vie
-            </h1>
+            </h3>
           </blockquote>
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
